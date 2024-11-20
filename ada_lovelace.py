@@ -11,7 +11,7 @@ def doutorado():
 
 
 def contribuicoes():
-    mensagem = "Seu trabalho mais notável foi a análise detalhada do Analytical Engine, de Charles Babbage, onde ela introduziu o conceito de algoritmos para máquinas, tornando-a a primeira programadora da história."
+    mensagem = "Ada desenvolveu o primeiro algoritmo projetado para uma máquina, e colaborou na análise da máquina Analítica."
     return mensagem
 
 
