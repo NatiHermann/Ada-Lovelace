@@ -6,22 +6,22 @@ def resumo():
 
 
 def doutorado():
-    mensagem = ""
+    mensagem = "Não tem."
     return mensagem
 
 
 def contribuicoes():
-    mensagem = ""
+    mensagem = "Seu trabalho mais notável foi a análise detalhada do Analytical Engine, de Charles Babbage, onde ela introduziu o conceito de algoritmos para máquinas, tornando-a a primeira programadora da história."
     return mensagem
 
 
 def artigos():
-    mensagem = ""
+    mensagem = "Sem artigos de autoria própria."
     return mensagem
 
 
 def citacoes():
-    mensagem = ""
+    mensagem = "A ciência matemática mostra o que é. É a linguagem das relações invisíveis entre as coisas.\n\n A imaginação é a faculdade descobridora, por excelência. É o que penetra nos mundos invisíveis ao nosso redor, os mundos da ciência.\n\n O cérebro é algo mais do que meramente mortal; como o tempo mostrará."
     return mensagem
 
 
@@ -35,22 +35,21 @@ def erro():
     return mensagem
 
 
-print("\nBoa noite! Você está aprendendo sobre Allan Turing.\n")
+print("\nBoa noite! Você está aprendendo sobre Ada Lovelace.")
 
 continuar = True
 while continuar == True:
 
     opcao = int(
         input(
-"""
-\nDigite o número correspondente ao menu que você deseja acessar:
-1 - Resumo
-2 - Doutorado
-3 - Contribuições
-4 - Principais Artigos
-5 - Citações
-6 - Sair\n
-"""
+            "\nDigite o número correspondente ao menu que você deseja acessar: \n\n" +
+            
+            "1 - Resumo\n" +
+            "2 - Doutorado\n" +
+            "3 - Contribuições\n" +
+            "4 - Principais Artigos\n" +
+            "5 - Citações\n" +
+            "6 - Sair\n\n"
         )
     )
 
