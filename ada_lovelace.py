@@ -11,7 +11,7 @@ def doutorado():
 
 
 def contribuicoes():
-    mensagem = ""
+    mensagem = "Ada desenvolveu o primeiro algoritmo projetado para uma máquina, e colaborou na análise da máquina Analítica."
     return mensagem
 
 
